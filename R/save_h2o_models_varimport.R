@@ -82,7 +82,6 @@ save_h2o_models_varimport <- function(leaderboard,
 
     file_time_stamp <- time_stamp
 
-    return(file_time_stamp)
   }
 
   message(paste0('Saving model and variable importance list to ', path_slug))
