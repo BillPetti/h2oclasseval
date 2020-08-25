@@ -1,0 +1,21 @@
+Package: h2oclasseval
+Type: Package
+Title: Helper functions for evaluating classification models built with h2o automl
+Version: 0.1.0
+Author: Bill Petti <billpetti@gmail.com>
+Maintainer: Bill Petti <billpetti@gmail.com>
+Description: Provides functions for saving h2o automl model objects and variable importance, 
+      as well as calculating classifier performance metrics for custom threshold values.
+Depends:
+    R (>= 3.2.0)
+Imports:
+    dplyr,
+    h2o, 
+    purrr,
+    tibble
+License: MIT + file LICENSE
+URL: 
+BugReports:
+LazyData: true
+RoxygenNote: 7.1.0
+Encoding: UTF-8
