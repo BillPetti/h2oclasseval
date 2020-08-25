@@ -5,7 +5,7 @@
 #' @param threshold A range of threshold/cut-off values to evaluate.
 #'
 #' @import h2o purrr dplyr tibble
-#'
+#' @importFrom MLmetrics LogLoss
 #' @return A data.frame containing metrics for each threshold value provided.
 #'
 #' @description
