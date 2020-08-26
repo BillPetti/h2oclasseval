@@ -75,7 +75,7 @@ lb_dataframe <- aml@leaderboard %>%
 
 ## Saving the model objects
 
-Set a `path_slup` to an existing director and a `time_stamp` if different from function's default:
+Set a `path_slug` to an existing director and a `time_stamp` if different from function's default:
 ```
 path_slug <- '/Users/williampetti/Desktop/h2o_titanic/'
 time_stamp <- gsub('-| |:', '_', Sys.time())
